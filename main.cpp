@@ -9,4 +9,3 @@ int main(int argc, char const *argv[]) {
     //SelfList<int> list(SelfList<int>::Move);
     return EXIT_SUCCESS;
 }
-
