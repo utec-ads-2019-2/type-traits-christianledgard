@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/type-traits-christianledgard/mock/mocker.cpp
-mocker.h
-/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/type-traits-christianledgard/mock/mocker.h
+/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/type-traits-christianledgard/main.cpp
+iostream
+-
+test/tester.h
+/Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/type-traits-christianledgard/test/tester.h
 
 /Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/type-traits-christianledgard/mock/mocker.h
 random
@@ -21,6 +23,8 @@ type_traits
 /Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/type-traits-christianledgard/self_list.h
 node.h
 /Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/type-traits-christianledgard/node.h
+vector
+-
 
 /Users/christianledgard/Documents/2019-2/Algoritmos y Estructuras de Datos/GitHub/type-traits-christianledgard/test/tester.cpp
 tester.h

@@ -22,8 +22,8 @@ void Tester::execute() {
         }
 
         int newSize = size - 5;
-        ASSERT(integers.size() == newSize, "The size function has problems");
-        ASSERT(floats.size() == newSize, "The size function has problems");
+        ASSERT(integers.getSize() == newSize, "The size function has problems");
+        ASSERT(floats.getSize() == newSize, "The size function has problems");
         ASSERT(isSorted(integers), "The integers list has problems");
         ASSERT(isSorted(floats), "The floats list has problems");
     }
@@ -31,7 +31,7 @@ void Tester::execute() {
 
 template <typename T>
 bool Tester::isSorted(TraitsList<T> &list) {
-    for (int i = 1; i < list.size(); ++i) {
+    for (int i = 1; i < list.getSize(); ++i) {
         if ((is_same<T, Integer>::value) && list[i - 1] > list[i]) {
             return false;
         } else if ((is_same<T, Float>::value) && list[i - 1] < list[i]) {
