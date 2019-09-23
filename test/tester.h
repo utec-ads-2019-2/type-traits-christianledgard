@@ -24,7 +24,7 @@ using namespace std;
 #   define ASSERT(condition, message) do { } while (false)
 #endif
 
-#define NUMBER_OF_TESTS 1000
+#define NUMBER_OF_TESTS 10000
 
 template <typename T>
 struct Greater {

@@ -66,6 +66,8 @@ class SelfList {
         }  
 
         bool find(T data) {
+            // Sería bueno verificar si el elemento está primero
+            // Se repite mucho el código porque no hay un find como el traits list
             switch (method) {
                 case Move:
                     for (auto temp = this->head ; temp != nullptr ; temp = temp->next) {
